@@ -8,3 +8,5 @@ work3 - develop in ROS
 work4 - administration in ROS
 work5 - final homework
 
+lab1, lab2 - lab works in msu
+
