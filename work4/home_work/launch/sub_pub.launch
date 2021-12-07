@@ -1,0 +1,6 @@
+<launch>
+  <arg name="msg_value" default="ROS"/>
+  <node pkg="home_work" type="pub.py" name="topic_publisher" output="log" respawn="true"/>
+    <param name="msg" value="$(arg msg_value)"/>
+  <node pkg="home_work" type="sub.py" name="topic_subscriber"/> 
+</launch>

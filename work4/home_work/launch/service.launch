@@ -1,0 +1,3 @@
+<launch>
+  <node pkg="home_work" type="service_server.py" name="add_two_ints"/>
+</launch>
