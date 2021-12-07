@@ -1,6 +1,0 @@
-<launch>
- <include file="$(find home_work)/launch/sub_pub.launch">
- </include>
- <include file="$(find home_work)/launch/action.launch"/>
- <include file="$(find home_work)/launch/service.launch"/>
-</launch>
